@@ -7,5 +7,5 @@
 - fuzzytree == 0.2.0
 
 ## data：
-chapter3-1 & chapter4 ：https://archive.ics.uci.edu/ml/machine-learning-databases/00320/student.zip
-chapter3-2            ：https://www.kaggle.com/datasets/thedevastator/online-course-student-engagement-metrics
+- chapter3-1 & chapter4 ：https://archive.ics.uci.edu/ml/machine-learning-databases/00320/student.zip
+- chapter3-2            ：https://www.kaggle.com/datasets/thedevastator/online-course-student-engagement-metrics
