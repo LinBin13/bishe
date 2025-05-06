@@ -4,7 +4,7 @@
 - matplotlib == 3.7.2
 - numpy == 1.25.1
 - scikit-learn == 1.6.1
-- fuzzytree == 0.2.0
+- fuzzytree == 0.2.0 (which is modified for self-defined data fuzzification method)
 
 ## data：
 - chapter3-1 & chapter4 ：https://archive.ics.uci.edu/ml/machine-learning-databases/00320/student.zip
