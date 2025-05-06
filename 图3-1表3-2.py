@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-十折交叉验证剪枝效果分析（修复版）
-解决cross_val_score不支持return_train_score的问题
-依赖: pandas==2.1.0, scikit-learn==1.3.0, matplotlib==3.8.0
-"""
 
 import pandas as pd
 import matplotlib.pyplot as plt
