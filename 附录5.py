@@ -53,8 +53,8 @@ def generate_triangular_memberships_quantile(data_column):
     q25, q50, q75 = np.percentile(data_column, [25, 50, 75])
 
     F_low = {'a': x_min, 'b': q25, 'c': (q25 + q50) / 2}
-    F_mid = {'a': (q25 + q50) / 2, 'b': q50, 'c': (q50 + q75) / 2}
-    F_high = {'a': (q50 + q75) / 2, 'b': q75, 'c': x_max}
+    F_mid = {'a': q25, 'b': q50, 'c': (q50 + q75) / 2}
+    F_high = {'a': q50, 'b': q75, 'c': x_max}
 
     return [F_low, F_mid, F_high]
 def create_fuzzy_sets(X, feature_names):
